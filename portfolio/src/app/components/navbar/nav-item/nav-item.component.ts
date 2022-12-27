@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-nav-item',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-item.component.css']
 })
 export class NavItemComponent {
-
+  @Input() navItemName!:string;
 }

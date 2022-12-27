@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class NavBarComponent {
   @Input() brandname!:string;
+  @Input() navItems!:string[];
 }
