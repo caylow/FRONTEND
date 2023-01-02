@@ -1,3 +1,21 @@
+.a-container{
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Give the a-container element a full-height layout */
+  width: 100%;
+}
+
+app-nav-bar, app-footer{
+  margin: 0px!important;
+}
+app-nav-bar{
+  flex: 0 0 auto;
+}
+
 main{
-    height: 100vmin;
+  flex:1 1 auto;
+}
+
+app-footer{
+  flex: 0 0 auto;
 }

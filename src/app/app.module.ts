@@ -10,6 +10,7 @@ import { SkillsSectionComponent } from './components/skills-section/skills-secti
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { CardComponentComponent } from './components/card-component/card-component.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,6 @@ import { CardComponentComponent } from './components/card-component/card-compone
     AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
