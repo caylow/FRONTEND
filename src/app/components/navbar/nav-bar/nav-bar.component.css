@@ -18,7 +18,7 @@ nav ul li a.nav-link{
     box-sizing:border-box;
 }
 
-nav ul li a.nav-link#active{
+nav ul li a.nav-link.active{
     color: var(--action-color)!important;
     border-bottom: 2px solid #89023E;
 }
@@ -26,3 +26,4 @@ nav ul li a.nav-link:hover{
     color:var(--action-color)!important;
     transition: 250ms;
 }
+
