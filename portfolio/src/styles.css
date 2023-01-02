@@ -1,110 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
 :root{
-    --main-bg-color:#F4F4F2;
-    --p-font:'Merriweather', serif;
-    --h-font:'Montserrat', sans-serif;
-    --secondary-color: #495464;
-    --terceary-color: #E8E8E8;
+    --primary-color:#F7F7FF;
+    --action-color: #89023E;
+    --secondary-color: #000;
+    --quarter-color: #8963BA;
     --font-weight-medium:500;
     --font-weight-bold:700;
 }
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
+*, *:before, *:after {
+    
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -ms-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+  }
 /*Body's and html styles*/
 html, body{
     margin: 0;
     padding: 0;
 }
+html{
+    height: 100%;
+}
 body{
     height: 100%;
 }
 body{
-    background-color: var(--terceary-color)!important;
-}
-
-/*
-    Classes Variables
-*/
-.bg--primary{
-    background-color: var(--main-bg-color);
+    background-color: var(--primary-color)!important;
 }
 
 
 /* 
 Headings and pagraphs default settings
 */
-h1, h2, h3, h4, h5, h6{
-    font-family: var(--h-fonts);
-    color:var(--secondary-color);
+
+h1, h2, h3, h4, h5, h6, span, p{
+    font-family: 'Montserrat', sans-serif;
 }
 h2, h3, h4, h5, h6{
     font-weight: var(--font-weight-medium)!important;
 }
 h1{
     font-weight: var(--font-weight-bold)!important;
+    color: var(--action-color);
+}
+h2{
+    color: #000!important;
+    font-weight: var(--font-weight-medium);
+    
 }
 h5{
     margin: 0;
 }
-p, span{
-    font-family: var(--h-font);
-}
+
 span{
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: 700;
 }
 
 /*
-Introduction section
-*/
-h1#intro-text{
-    font-weight: 300!important;
-    font-family: var(--h-font)!important;
-    font-size: 2.5em;
-}
-
-
-/*
-Social Media Icons
-*/
-
-.social-link{
-color:inherit;
-}
-a.social-link i:hover{
-color:var(--secondary-color);
-opacity: .5;
-}
-.text-area{
-resize: none;
-}
-i{
-    color:var(--secondary-color);
-}
-
-/*
-Footer
-*/
-footer{
-    background-color: var(--secondary-color);
-    padding: 2em;
-}
-footer p{
-    color:var(--main-bg-color);
-    font-family: var(--h-fonts);
-    font-size: 1em;
-}
-#profile-pic{
-    width: 300px;
-    height: auto;
-}
-.img-container{
-    padding: 0px;
-}
-/*
-
+Responsiveness
 */
 @media (max-width: 1200px) {
     h1#intro-text{
@@ -112,9 +73,11 @@ footer p{
     }
 }
 @media(max-width:1100px){
+
     h1.introduction-text{
         font-size: 1.5em!important;
     }
+
 }
 @media (max-width: 992px) { 
     h5{

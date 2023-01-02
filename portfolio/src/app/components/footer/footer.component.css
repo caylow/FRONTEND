@@ -1,0 +1,20 @@
+/*
+Footer
+*/
+footer{
+    padding: 1em;
+}
+footer p{
+    font-weight: var(--font-weight-medium);
+    color:var(--tertiary-color);
+    font-size: 1em;
+}
+#profile-pic{
+    padding-left: 0px!important;
+    padding-right: 0px;
+    width: 256px;
+    height: auto;
+}
+.img-container{
+    padding: 0px;
+}

@@ -1,12 +1,14 @@
-<nav class="navbar navbar-light navbar-expand-lg p-3">
+<nav class="navbar navbar-light navbar-expand-sm p-3">
     <div class="container justify-content-between">
-      <app-nav-brand brandName="{{brandname}}"></app-nav-brand>
+      <a class="navbar-brand" href="#">{{brandname}}</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class=" justify-content-end collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <app-nav-item *ngFor="let navItem of navItems;" navItemName="{{navItem}}"></app-nav-item>
+          <li class="nav-item" *ngFor="let navItem of navItems;" navItem="navItem">
+            <a class="nav-link" [routerLink]="navItem[1]">{{navItem[0]}}</a>
+          </li>
         </ul>
       </div>
     </div>

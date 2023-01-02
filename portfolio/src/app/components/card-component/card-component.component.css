@@ -1,0 +1,23 @@
+.card{
+    background-color: transparent!important;
+    border: 2px solid var(--action-color)!important;
+    padding: 1rem;
+    margin: 16px!important;
+    height:120px;
+}
+.progress-bar{
+    background-color:var(--action-color)!important;
+}
+p{
+    padding: 16px;
+}
+
+@media (max-width: 990px) { 
+    .card{
+        padding: .5rem;
+        height: 110px;
+    }
+    h5{
+        font-size: 1em!important;
+    }
+ }

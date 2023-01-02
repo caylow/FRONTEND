@@ -1,0 +1,33 @@
+/*
+Introduction section
+*/
+
+h1.big-text{
+    font-size: 6.5em!important;
+    width: auto;
+}
+span.intro-text{
+    font-weight: 300!important;
+    color:var(--tertiary-color)!important;
+    font-size: 2.5em;
+}
+
+/*
+Contact Btn
+*/
+
+button#contact-btn{
+    background-color: transparent;
+    color:var(--action-color);
+    font-weight: var(--font-weight-bold);
+    border:2px solid var(--action-color);
+    width: 256px;
+    height: 64px;
+    font-size: 1em;
+    transition: background-color .5s;
+}
+
+button#contact-btn:hover{
+    background-color: var(--action-color);
+    color: var(--primary-color);
+}

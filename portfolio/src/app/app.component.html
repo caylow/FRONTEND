@@ -1,5 +1,5 @@
-<app-nav-bar brandname="Juan Pablo" [navItems]="navItemsArray"></app-nav-bar>
-<app-intro-section></app-intro-section>
-<app-skills-section></app-skills-section>
-<app-contact-form></app-contact-form>
-<app-footer author="Biondo JP"></app-footer>
+<app-nav-bar class="row container" brandname="{{brandName}}" [navItems]="navItemsArray"></app-nav-bar>
+<main class="m-4 container">
+    <router-outlet></router-outlet>
+</main>
+<app-footer class="w-100 row text-center align-items-center justify-content-center" author="Biondo JP"></app-footer>

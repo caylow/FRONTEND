@@ -1,0 +1,28 @@
+/*
+Nav-bar
+*/
+nav{
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.navbar-brand{
+    font-weight: var(--font-weight-bold);
+    color:var(--tertiary-color)!important;
+    font-size:2em!important;
+}
+
+nav ul li a.nav-link{
+    height: 32px;
+    color:var(--tertiary-color)!important;
+    font-weight: var(--font-weight-bold);
+    box-sizing:border-box;
+}
+
+nav ul li a.nav-link#active{
+    color: var(--action-color)!important;
+    border-bottom: 2px solid #89023E;
+}
+nav ul li a.nav-link:hover{
+    color:var(--action-color)!important;
+    transition: 250ms;
+}
