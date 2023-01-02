@@ -1,0 +1,30 @@
+#contact-form{
+    
+}
+form{
+    width: 720px;
+    /*border: 2px solid var(--action-color);*/
+}
+button#contact-btn{
+    background-color: transparent;
+    color:var(--action-color);
+    font-weight: var(--font-weight-bold);
+    border:2px solid var(--action-color);
+    width: 128px;
+    font-size: 1em;
+    transition: background-color .5s;
+    margin-left:0px!important;
+    padding: 8px;
+}
+
+button#contact-btn:hover{
+    background-color: var(--action-color);
+    color: var(--primary-color);
+}
+
+label{
+    padding-left: 0px!important;
+}
+input, textarea{
+    border-radius: 0px!important;
+}
