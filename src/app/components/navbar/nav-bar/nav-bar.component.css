@@ -12,7 +12,6 @@ nav{
 }
 
 nav ul li a.nav-link{
-    height: 32px;
     color:var(--tertiary-color)!important;
     font-weight: var(--font-weight-bold);
     box-sizing:border-box;
