@@ -1,6 +1,6 @@
 <div class="a-container container">
     <app-nav-bar class="row container" brandname="{{brandName}}" [navItems]="navItemsArray"></app-nav-bar>
-    <main [@routeAnimations]="getRouteAnimationData()" class="container">
+    <main [@routeAnimations]="getRouteAnimationData()" class="d-flex container">
         <router-outlet></router-outlet>
     </main>
     <app-footer class="w-100 row text-center align-items-center justify-content-center" author="Biondo JP"></app-footer>

@@ -27,11 +27,13 @@ html, body{
 }
 html,body{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
     background-color: var(--primary-color)!important;
 }
+
 
 /* 
 Headings and pagraphs default settings

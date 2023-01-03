@@ -11,7 +11,9 @@ app-nav-bar, app-footer{
 app-nav-bar{
   flex: 0 0 auto;
 }
-
+app-main{
+  height: 100%;
+}
 main{
   flex:1 1 auto;
 }

@@ -1,50 +1,48 @@
-import { animation, style, animate, trigger, transition, useAnimation, query, animateChild, group } from '@angular/animations';
+import { animation, style, animate, trigger, transition, useAnimation, query, animateChild, group, state } from '@angular/animations';
 export const slideInAnimation =
-    trigger('routeAnimations', [
-      transition('HomePage => AboutPage', [
-        style({ position: 'relative' }),
-        query(':enter, :leave', [
-            style({
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                width: '100%'
-            })
+  trigger('routeAnimations', [
+    transition('HomePage => AboutPage, HomePage => ContactPage, AboutPage => ContactPage', [
+      style({ position: 'relative' }),
+      query(':enter, :leave', [
+        style({
+          width: '100%',
+          position:'absolute',
+          left:0,
+        })
+      ]),
+      query(':enter', [
+        style({ left: '100vw'})
+      ]),
+      query(':leave', animateChild()),
+      group([
+        query(':leave', [
+          animate('300ms ease-out', style({ left: '-100vw' }))
         ]),
         query(':enter', [
-          style({ transform: 'translateX(100%)' })
-        ]),
-        query(':leave', animateChild()),
-        group([
-          query(':leave', [
-            animate('300ms ease-out', style({transform: 'translateX(-100%)'}))
-          ]),
-          query(':enter', [
-            animate('300ms ease-out', style({ transform: 'translateX(0%)' }))
-          ]),
+          animate('300ms ease-out', style({ left:'0%' }))
         ]),
       ]),
-      transition('AboutPage => ContactPage', [
-        style({ position: 'relative' }),
-        query(':enter, :leave', [
-            style({
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                width: '100%'
-            })
+    ]),
+    transition('AboutPage => HomePage, ContactPage => HomePage , ContactPage => AboutPage', [
+      style({ position: 'relative' }),
+      query(':enter, :leave', [
+        style({
+          width: '100%',
+          position:'absolute',
+          left:0,
+        })
+      ]),
+      query(':enter', [
+        style({ left: '-100vw'})
+      ]),
+      query(':leave', animateChild()),
+      group([
+        query(':leave', [
+          animate('300ms ease-out', style({ left: '100vw' }))
         ]),
         query(':enter', [
-          style({ transform: 'translateX(100%)' })
-        ]),
-        query(':leave', animateChild()),
-        group([
-          query(':leave', [
-            animate('300ms ease-out', style({transform: 'translateX(-100%)'}))
-          ]),
-          query(':enter', [
-            animate('300ms ease-out', style({ transform: 'translateX(0%)' }))
-          ]),
+          animate('300ms ease-out', style({ left:'0%' }))
         ]),
       ]),
-    ]);
+    ]),
+  ])
