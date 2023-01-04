@@ -103,6 +103,10 @@ Responsiveness
     margin-bottom: 16px;
     max-width: 960px;
 }
+
 app-about-me, app-contact-form{
     width: 100%;
+}
+app-footer{
+    background-color: #fff;
 }

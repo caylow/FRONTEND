@@ -1,6 +1,5 @@
-import { animation, style, animate, trigger, transition, useAnimation, query, animateChild, group, state } from '@angular/animations';
-export const slideInAnimation =
-  trigger('routeAnimations', [
+import { style, animate, trigger, transition, query, animateChild, group, keyframes } from '@angular/animations';
+export const slideInAnimation = trigger('routeAnimations', [
     transition('HomePage => AboutPage, HomePage => ContactPage, AboutPage => ContactPage', [
       style({ position: 'relative' }),
       query(':enter, :leave', [
@@ -51,4 +50,10 @@ export const slideInAnimation =
         ]),
       ]),
     ]),
-  ])
+  ]);
+
+export const fAnimation = trigger( 'footerAnimation',[
+  transition('* <=> AboutPage',[
+    style({position:'relative', opacity:'0'}),
+    animate('300ms', style({opacity:'0'})),
+  ])]);

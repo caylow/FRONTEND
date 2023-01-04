@@ -3,7 +3,6 @@ Footer
 */
 footer{
     padding: 1em;
-    background-color: #FFF;
 }
 footer p{
     font-weight: var(--font-weight-medium);
