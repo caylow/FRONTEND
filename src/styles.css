@@ -1,5 +1,5 @@
 :root{
-    --primary-color:#F7F7FF;
+    --primary-color:#FFF;
     --action-color: #89023E;
     --secondary-color: #000;
     --quarter-color: #8963BA;
@@ -26,13 +26,24 @@ html, body{
     padding: 0;
 }
 html,body{
-    height: 100%;
+    height: 100vh;
+}
+html{
+    width: 100vw;
+}
+body{
     overflow-x: hidden;
 }
 
 body{
     background-color: var(--primary-color)!important;
 }
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+  }
 
 
 /* 
@@ -83,3 +94,15 @@ Responsiveness
         font-size: 1em!important;
     }
  }
+
+ .s-container{
+    background-color: #F5F5F5 ;
+    padding: 2.5em 2em 2.5em 2em;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    max-width: 960px;
+}
+app-about-me, app-contact-form{
+    width: 100%;
+}

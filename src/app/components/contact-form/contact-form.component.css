@@ -1,9 +1,5 @@
-#contact-form{
-    
-}
 form{
-    width: 720px;
-    /*border: 2px solid var(--action-color);*/
+    max-width: 720px;
 }
 button#contact-btn{
     background-color: transparent;

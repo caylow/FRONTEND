@@ -1,7 +1,7 @@
 .a-container{
   display: flex;
   flex-direction: column;
-  height: 100%; /* Give the a-container element a full-height layout */
+  height: 100vh;
   width: 100%;
 }
 
@@ -19,5 +19,6 @@ main{
 }
 
 app-footer{
+  z-index: 9999;
   flex: 0 0 auto;
 }

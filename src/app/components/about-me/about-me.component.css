@@ -2,13 +2,17 @@
     width: 250px;
     height: auto;
 }
-#about-me{
-    padding: 1rem;
-}
+
+
 #skills{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 .title, .subtitle{
     margin-bottom: 1rem;
+}
+
+#menu{
+    width: fit-content;
+    height: fit-content;
 }
