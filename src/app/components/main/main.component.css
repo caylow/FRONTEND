@@ -31,3 +31,25 @@ button#contact-btn:hover{
     background-color: var(--action-color);
     color: var(--primary-color);
 }
+
+/*
+Responsive
+*/
+
+@media (max-width: 770px) {
+    span.intro-text{
+        font-size: 1.5em!important;
+    }
+    h1.big-text{
+        font-size: 4.5em!important;
+    }
+}
+@media (max-width: 515px) {
+    h1.big-text{
+        font-size: 3.5em!important;
+    }
+    button#contact-btn{
+        width: 200px;
+        height: 54px;
+    }
+}
