@@ -1,6 +1,3 @@
-form{
-    max-width: 720px;
-}
 button#contact-btn{
     background-color: transparent;
     color:var(--action-color);
