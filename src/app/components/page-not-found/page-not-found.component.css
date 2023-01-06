@@ -1,0 +1,19 @@
+.nfp-container{
+    max-width: 960px;
+}
+
+.nfp-title, .nfp-text{
+    text-align: center;
+}
+
+.nfp-title{
+    font-size: 5em!important;
+    color:var(--secondary-color)
+}
+
+.nfp-text{
+    font-size: 1.25em!important;
+    color:var(--secondary-color);
+    opacity: .85;
+    width: 680px;
+}
