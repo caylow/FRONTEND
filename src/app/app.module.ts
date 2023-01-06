@@ -10,6 +10,7 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { CardComponentComponent } from './components/card-component/card-component.component';
 import { RouterModule } from '@angular/router';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { RouterModule } from '@angular/router';
     ContactFormComponent,
     AboutMeComponent,
     CardComponentComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
