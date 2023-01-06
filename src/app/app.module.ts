@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MainComponent } from './components/main/main.component';
-import { SkillsSectionComponent } from './components/skills-section/skills-section.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { CardComponentComponent } from './components/card-component/card-component.component';
@@ -18,7 +17,6 @@ import { RouterModule } from '@angular/router';
     NavBarComponent,
     FooterComponent,
     MainComponent,
-    SkillsSectionComponent,
     ContactFormComponent,
     AboutMeComponent,
     CardComponentComponent,
