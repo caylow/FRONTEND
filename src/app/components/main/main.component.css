@@ -19,18 +19,19 @@ Contact Btn
 
 button#contact-btn{
     background-color: transparent;
-    color:var(--action-color);
+    color:var(--secondary-color);
     font-weight: var(--font-weight-bold);
+    background-color: var(--action-color);
     border:2px solid var(--action-color);
-    width: 256px;
-    height: 64px;
+    width: 200px;
+    height: 56px;
     font-size: 1em;
     transition: background-color .5s;
+    border-radius: 5px;
 }
 
 button#contact-btn:hover{
-    background-color: var(--action-color);
-    color: var(--primary-color);
+    background-color: transparent;
 }
 
 /*
@@ -48,9 +49,5 @@ Responsive
 @media (max-width: 515px) {
     h1.big-text{
         font-size: 3.5em!important;
-    }
-    button#contact-btn{
-        width: 200px;
-        height: 54px;
     }
 }
