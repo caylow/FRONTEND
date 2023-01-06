@@ -6,7 +6,7 @@ footer{
 }
 footer p{
     font-weight: var(--font-weight-medium);
-    color:var(--tertiary-color);
+    color:var(--secondary-color);
     font-size: 1em;
 }
 #profile-pic{

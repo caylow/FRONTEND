@@ -1,8 +1,7 @@
 :root{
-    --primary-color:#FFF;
-    --action-color: #89023E;
-    --secondary-color: #000;
-    --quarter-color: #8963BA;
+    --primary-color:#3A4750;
+    --secondary-color: #F3F3F3;
+    --action-color: #2185D5;
     --font-weight-medium:500;
     --font-weight-bold:700;
 }
@@ -88,7 +87,7 @@ app-about-me, app-contact-form{
 }
 app-footer{
     border-top: 1px solid var(--secondary-color);
-    background-color: #fff;
+    background-color: var(--primary-color);
 }
 
 /*
