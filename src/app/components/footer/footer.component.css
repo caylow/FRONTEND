@@ -18,3 +18,12 @@ footer p{
 .img-container{
     padding: 0px;
 }
+
+.social-links{
+    color:var(--secondary-color);
+    transition: 300ms color;
+}
+.social-links:hover{
+    color:var(--action-color);
+    opacity: 1;
+}

@@ -86,7 +86,7 @@ app-about-me, app-contact-form{
     width: 100%;
 }
 app-footer{
-    border-top: 1px solid var(--secondary-color);
+    border-top: 2px solid var(--secondary-color);
     background-color: var(--primary-color);
 }
 
