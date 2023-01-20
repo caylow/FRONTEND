@@ -1,4 +1,14 @@
 /*
+Box styling
+*/
+
+#banner{
+    background-image: url('/assets/hero.png');
+    background-position: center;
+}
+
+
+/*
 Introduction section
 */
 h1.big-text, span.intro-text{
