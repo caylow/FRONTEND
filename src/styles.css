@@ -85,6 +85,11 @@ span{
 app-about-me, app-contact-form{
     width: 100%;
 }
+
+app-main-button{
+    width: auto!important;
+}
+
 app-page-not-found{
     margin: auto;
 }
