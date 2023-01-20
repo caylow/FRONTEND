@@ -2,7 +2,7 @@ button.main-btn{
     background-color: transparent;
     color:var(--secondary-color);
     font-weight: var(--font-weight-bold);
-    background-color: var(--action-color);
+    background-color: transparent;
     border:2px solid var(--action-color);
     width: 200px;
     height: 56px;
@@ -12,5 +12,5 @@ button.main-btn{
 }
 
 button.main-btn:hover{
-    background-color: transparent;
+    background-color: var(--action-color);
 }
