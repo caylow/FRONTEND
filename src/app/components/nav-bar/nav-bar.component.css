@@ -1,10 +1,6 @@
 /*
 Nav-bar
 */
-nav{
-    border-bottom: 2px solid var(--secondary-color);
-}
-
 .navbar-brand{
     font-weight: var(--font-weight-bold);
     color:var(--secondary-color)!important;

@@ -10,6 +10,11 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { CardComponentComponent } from './components/card-component/card-component.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { MainButtonComponent } from './components/btn-main/btn-main.component';
+import { EducationComponent } from './components/education/education.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { SeparatorComponent } from './components/separator/separator.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +27,11 @@ import { MainButtonComponent } from './components/btn-main/btn-main.component';
     CardComponentComponent,
     PageNotFoundComponent,
     MainButtonComponent,
+    EducationComponent,
+    ExperienceComponent,
+    ProjectsComponent,
+    SeparatorComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,

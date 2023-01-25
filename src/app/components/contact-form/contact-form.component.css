@@ -15,9 +15,6 @@ button#contact-btn:hover{
     color: var(--primary-color);
 }
 
-label{
-    padding-left: 0px!important;
-}
 input, textarea{
     border-radius: 0px!important;
 }

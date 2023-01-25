@@ -1,6 +1,6 @@
 :root{
-    --primary-color:#3A4750;
-    --secondary-color: #F3F3F3;
+    --primary-color:#F3F3F3;
+    --secondary-color: #3A4750;
     --action-color: #2185D5;
     --font-weight-medium:500;
     --font-weight-bold:700;
@@ -44,11 +44,12 @@ body{
     background: transparent;
   }
 
-
 /* 
 Headings and pagraphs default settings
 */
-
+h1, h2{
+    font-family: 'Exo', sans-serif!important;
+}
 h1, h2, h3, h4, h5, h6, span, p{
     font-family: 'Montserrat', sans-serif;
 }
@@ -57,7 +58,7 @@ h2, h3, h4, h5, h6{
 }
 h1{
     font-weight: var(--font-weight-bold)!important;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 h2{
     color: #000!important;
@@ -73,37 +74,22 @@ span{
     font-weight: 700;
 }
 
-.s-container{
-    background-color: #F5F5F5 ;
-    padding: 2.5em 2em 2.5em 2em;
-    margin: auto;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    max-width: 960px;
-}
-
-app-about-me, app-contact-form{
+app-main{
     width: 100%;
-}
-
-app-main-button{
-    width: auto!important;
 }
 
 app-page-not-found{
     margin: auto;
 }
-app-footer{
-    border-top: 2px solid var(--secondary-color);
-    background-color: var(--primary-color);
+
+.all-container{
+    margin: auto;
 }
+
 
 /*
 Responsiveness
 */
-
-
-
 @media (max-width: 992px) { 
     h5{
         font-size: 1em!important;
@@ -114,3 +100,6 @@ Responsiveness
         padding: 1.5em 1em 1.5em 1em;
     }
  }
+ .info-text{
+    max-width: 640px;
+}

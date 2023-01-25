@@ -1,14 +1,38 @@
 /*
 Box styling
 */
-
 #banner{
     background-image: url('/assets/hero.png');
     background-position: center;
+    height: 440px;
+    width:100%;
+    position: relative;
 }
+
+
+#about-me{
+    padding-top: 1em;
+}
+
+.user-title{
+    font-size: 1em;
+    text-align: center;
+}
+
 
 .dark-gradient{
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.5) 100%);
+}
+
+/*
+    Profile picture
+*/
+#profile-image{
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    overflow: hidden;
+    border:5px solid var(--secondary-color);
 }
 
 

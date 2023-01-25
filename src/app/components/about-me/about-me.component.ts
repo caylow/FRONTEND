@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
+
 @Component({
   selector: 'app-about-me',
   templateUrl: './about-me.component.html',

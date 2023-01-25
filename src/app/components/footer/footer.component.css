@@ -9,21 +9,3 @@ footer p{
     color:var(--secondary-color);
     font-size: 1em;
 }
-#profile-pic{
-    padding-left: 0px!important;
-    padding-right: 0px;
-    width: 256px;
-    height: auto;
-}
-.img-container{
-    padding: 0px;
-}
-
-.social-links{
-    color:var(--secondary-color);
-    transition: 300ms color;
-}
-.social-links:hover{
-    color:var(--action-color);
-    opacity: 1;
-}

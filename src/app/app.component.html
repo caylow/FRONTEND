@@ -1,9 +1,16 @@
-<div class="a-container container">
+<div class="container">
     <app-nav-bar class="row container" brandname="{{brandName}}" [navItems]="navItemsArray"></app-nav-bar>
-    <main class="d-flex container">
+    <main class="container">
         <app-main></app-main>
+        <app-separator></app-separator>
+        <app-education></app-education>
+        <app-separator></app-separator>
+        <app-experience></app-experience>
+        <app-separator></app-separator>
+        <app-about-me></app-about-me>
+        <app-separator></app-separator>
+        <app-projects></app-projects>
+        <app-footer class="w-100 row align-items-center" author="Biondo JP"></app-footer>
     </main>
-    <app-about-me></app-about-me>
-    <app-contact-form></app-contact-form>
-    <app-footer class="w-100 row align-items-center" author="Biondo JP"></app-footer>
+
 </div>

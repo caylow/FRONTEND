@@ -1,16 +1,16 @@
-button.main-btn{
+button.btn-main{
     background-color: transparent;
-    color:var(--secondary-color);
+    color:var(--action-color);
     font-weight: var(--font-weight-bold);
-    background-color: transparent;
     border:2px solid var(--action-color);
-    width: 200px;
-    height: 56px;
+    width: 256px;
     font-size: 1em;
     transition: background-color .5s;
-    border-radius: 5px;
+    margin: auto;
+    padding: 8px;
 }
 
-button.main-btn:hover{
+button.btn-main:hover{
     background-color: var(--action-color);
+    color: var(--primary-color);
 }
