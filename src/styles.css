@@ -86,6 +86,10 @@ app-page-not-found{
     margin: auto;
 }
 
+.title{
+    margin-bottom: 1em;
+  }
+  
 
 /*
 Responsiveness
