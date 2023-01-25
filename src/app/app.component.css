@@ -22,3 +22,7 @@ app-footer{
   z-index: 9999;
   flex: 0 0 auto;
 }
+
+.title{
+  margin-bottom: 1em;
+}

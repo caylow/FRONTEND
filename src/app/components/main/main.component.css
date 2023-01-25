@@ -9,24 +9,30 @@ Box styling
     position: relative;
 }
 
-
 #about-me{
     padding-top: 2em;
 }
 
+/*
+User Title
+*/
 .user-title{
     font-size: 1em;
     text-align: center;
 }
 
+/*
+Banner image
+*/
 
 .dark-gradient{
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.5) 100%);
 }
 
 /*
-    Profile picture
+Profile image
 */
+
 #profile-image{
     border-radius: 50%;
     height: 160px;
