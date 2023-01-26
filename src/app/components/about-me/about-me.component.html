@@ -2,13 +2,11 @@
     <div class="row container" id="skills">
         <h1 class="title">Habilidades</h1>
         <div class="col-md-12 col-lg-6">
-            <h2 class="subtitle">Habilidades Duras</h2>
             <div class="card-container">
                 <app-card-component *ngFor="let card of hardSkillsCards" [cardTitle]="card['title']" [cardPercentage]="card['percentage']" [faClass]="card['class']"></app-card-component>
             </div>
         </div>
         <div class="col-md-12 col-lg-6">
-            <h2 class="subtitle">Habilidades Blandas</h2>
             <div class="card-container">
                 <app-card-component *ngFor="let card of softSkillsCards" [cardTitle]="card['title']" [cardPercentage]="card['percentage']" [faClass]="card['class']"></app-card-component>
             </div>
